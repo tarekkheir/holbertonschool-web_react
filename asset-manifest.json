@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-page/static/css/main.3c275e57.chunk.css",
-    "main.js": "/react-gh-page/static/js/main.3fda9e62.chunk.js",
-    "main.js.map": "/react-gh-page/static/js/main.3fda9e62.chunk.js.map",
-    "runtime~main.js": "/react-gh-page/static/js/runtime~main.b97fe780.js",
-    "runtime~main.js.map": "/react-gh-page/static/js/runtime~main.b97fe780.js.map",
-    "static/js/2.ea490775.chunk.js": "/react-gh-page/static/js/2.ea490775.chunk.js",
-    "static/js/2.ea490775.chunk.js.map": "/react-gh-page/static/js/2.ea490775.chunk.js.map",
-    "index.html": "/react-gh-page/index.html",
-    "precache-manifest.846cd856d28081bcf9991c05c0cf9649.js": "/react-gh-page/precache-manifest.846cd856d28081bcf9991c05c0cf9649.js",
-    "service-worker.js": "/react-gh-page/service-worker.js",
-    "static/css/main.3c275e57.chunk.css.map": "/react-gh-page/static/css/main.3c275e57.chunk.css.map",
-    "static/media/holberton_logo.jpg": "/react-gh-page/static/media/holberton_logo.23d20eb3.jpg"
+    "main.css": "/task_4/static/css/main.3c275e57.chunk.css",
+    "main.js": "/task_4/static/js/main.3fda9e62.chunk.js",
+    "main.js.map": "/task_4/static/js/main.3fda9e62.chunk.js.map",
+    "runtime~main.js": "/task_4/static/js/runtime~main.607db946.js",
+    "runtime~main.js.map": "/task_4/static/js/runtime~main.607db946.js.map",
+    "static/js/2.ea490775.chunk.js": "/task_4/static/js/2.ea490775.chunk.js",
+    "static/js/2.ea490775.chunk.js.map": "/task_4/static/js/2.ea490775.chunk.js.map",
+    "index.html": "/task_4/index.html",
+    "precache-manifest.88b34d7a40557be4270357f73edaad50.js": "/task_4/precache-manifest.88b34d7a40557be4270357f73edaad50.js",
+    "service-worker.js": "/task_4/service-worker.js",
+    "static/css/main.3c275e57.chunk.css.map": "/task_4/static/css/main.3c275e57.chunk.css.map",
+    "static/media/holberton_logo.jpg": "/task_4/static/media/holberton_logo.23d20eb3.jpg"
   }
 }
