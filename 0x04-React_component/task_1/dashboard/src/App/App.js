@@ -5,7 +5,7 @@ import Login from "../Login/Login";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import CourseList from "../CourseList/CourseList";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 import { getLatestNotification } from '../utils/utils';
 
 
@@ -62,8 +62,8 @@ App.defaultProps = {
 };
 
 App.propTypes = {
-  isLoggedIn: propTypes.bool,
-  logOut: propTypes.func
+  isLoggedIn: PropTypes.bool,
+  logOut: PropTypes.func
 };
 
 export default App;
