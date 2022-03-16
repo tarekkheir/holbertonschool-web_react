@@ -3,30 +3,33 @@ import { StyleSheet, css } from "aphrodite";
 
 const Login = () => {
 	return (
-		<div className={(css(styles.AppLogin))}>
+		<React.Fragment>
 			<p>
 				Login to access the full dashboard
 			</p>
 			<label>
 				Email:
-				<input type="text" />
+				<input
+					type="email"
+					name="email"
+					className={css(styles.input)} />
 			</label>
 			<label>
 				Password:
-				<input type="password" />
+				<input
+					type="password"
+					name="password"
+					className={css(styles.input)} />
 			</label>
 			<button>OK</button>
-		</div>
+		</React.Fragment>
 	)
 }
 
 const styles = StyleSheet.create({
-	AppLogin: {
-		padding: '2rem',
-		fontSize: '1.2rem',
-		height: '400px',
-		borderBottom: 'solid 3px rgba(223, 21, 21, 0.808)',
-	}
+	input: {
+		margin: '0 0.5em',
+	},
 });
 
 export default Login;
