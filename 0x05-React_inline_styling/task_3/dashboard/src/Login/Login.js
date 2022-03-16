@@ -7,14 +7,14 @@ const Login = () => {
 			<p>
 				Login to access the full dashboard
 			</p>
-			<label>
+			<label className={css(styles.label)}>
 				Email:
 				<input
 					type="email"
 					name="email"
 					className={css(styles.input)} />
 			</label>
-			<label>
+			<label className={css(styles.label)}>
 				Password:
 				<input
 					type="password"
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 	},
 	label: {
 		'@media (max-width: 900px)': {
-			display: 'block'
+			display: 'block',
 		}
 	}
 });
