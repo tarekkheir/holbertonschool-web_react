@@ -3,14 +3,18 @@ import { StyleSheet, css } from "aphrodite";
 
 const Login = () => {
 	return (
-		<div className={css(styles.AppLogin)}>
+		<div className={('App-login', css(styles.AppLogin))}>
 			<p>
 				Login to access the full dashboard
 			</p>
-			<label>Email:</label>
-			<input type="text" />
-			<label>Password:</label>
-			<input type="password" />
+			<label>
+				Email:
+				<input type="text" />
+			</label>
+			<label>
+				Password:
+				<input type="password" />
+			</label>
 			<button>OK</button>
 		</div>
 	)

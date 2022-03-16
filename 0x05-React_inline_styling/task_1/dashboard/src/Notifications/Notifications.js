@@ -26,7 +26,7 @@ class Notifications extends React.Component {
         <div className="menuItem">
           Your notifications
         </div>
-        {this.props.displayDrawer && (<div className={css(styles.Notifications)}>
+        {this.props.displayDrawer && (<div className={('Notifications', css(styles.Notifications))}>
           <button
             style={{ float: "right" }}
             aria-label="Close"

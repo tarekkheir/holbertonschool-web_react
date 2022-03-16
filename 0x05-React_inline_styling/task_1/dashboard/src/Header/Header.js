@@ -5,7 +5,7 @@ import { StyleSheet, css } from "aphrodite";
 
 const Header = () => {
 	return (
-		<div className={css(styles.AppHeader)}>
+		<div className={('App-header', css(styles.AppHeader))}>
 			<img src={logo} alt="holberton logo" height="200" />
 			<h1>School dashboard</h1>
 		</div>
