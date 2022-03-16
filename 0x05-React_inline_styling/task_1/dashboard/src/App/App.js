@@ -50,7 +50,7 @@ class App extends React.Component {
         <Notifications listNotifications={listNotifications} />
         <div className="App">
           <Header />
-          <div className={css(styles.AppBody)}>
+          <div className={('App-body', css(styles.AppBody))}>
             {this.props.isLoggedIn ?
               <BodySectionWithMarginBottom title="Course List">
                 <CourseList listCourses={listCourses} />
