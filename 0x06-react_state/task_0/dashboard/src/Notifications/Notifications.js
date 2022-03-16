@@ -18,7 +18,7 @@ class Notifications extends React.Component {
 
   shouldComponentUpdate(nextProps) {
     return (
-      nextProps.listNotifications > this.props.listNotifications
+      nextProps.listNotifications.length > this.props.listNotifications.length
       ||
       nextProps.displayDrawer !== this.props.displayDrawer
     );
@@ -62,9 +62,8 @@ class Notifications extends React.Component {
                 </ul>
               </>
             ) : (
-              <p>No new notification for now</p>
-            )
-            }
+              <NotificationItem value="No new notification for now" />
+            )}
           </div>)
         }
       </React.Fragment >
