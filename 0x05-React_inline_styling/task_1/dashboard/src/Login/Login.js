@@ -3,7 +3,7 @@ import { StyleSheet, css } from "aphrodite";
 
 const Login = () => {
 	return (
-		<div className={('App-login', css(styles.AppLogin))}>
+		<div className={(css(styles.AppLogin))}>
 			<p>
 				Login to access the full dashboard
 			</p>
