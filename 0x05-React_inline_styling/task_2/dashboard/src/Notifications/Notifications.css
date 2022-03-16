@@ -1,0 +1,7 @@
+li[data-notification-type="urgent"] {
+    color: red;
+}
+
+li[data-notification-type="default"] {
+    color: blue;
+}
