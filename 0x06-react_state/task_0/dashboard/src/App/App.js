@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Notifications from "../Notifications/Notifications";
 import Login from "../Login/Login";
 import Footer from "../Footer/Footer";
@@ -88,7 +88,9 @@ class App extends React.Component {
               </p>
             </BodySection>
           </div>
-          <Footer />
+          <div className={css(styles.footer)}>
+            <Footer />
+          </div>
         </div>
       </React.Fragment >
     );
@@ -102,15 +104,12 @@ App.defaultProps = {
 
 App.propTypes = {
   isLoggedIn: propTypes.bool,
-  logOut: propTypes.func
+  logOut: propTypes.func,
 };
 
 const styles = StyleSheet.create({
   AppBody: {
     padding: '50px'
-  },
-  body: {
-    display: 'inline',
   },
 
   footer: {
